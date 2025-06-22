@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='darkweb-media-scraper',
+    name='DarkWebScrapper',
     version='1.0.0',
     description='Scrape and download .mp4, .jpg, and .png files from .onion sites over Tor',
-    author='Your Name',
-    author_email='your.email@example.com',
-    url='https://github.com/deepzsenu/darkweb-media-scraper',
+    author='deepzsenu',
+    author_email='deepzsenu@gmail.com',
+    url='https://github.com/deepzsenu/DarkWebScrapper',
     packages=find_packages(),
     py_modules=['dark_scraper'],
     install_requires=[

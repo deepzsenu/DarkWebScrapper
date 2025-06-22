@@ -1,4 +1,3 @@
-Absolutely! Here's your focused `README.md` file — clean, clear, and without license or credit sections:
 
 ---
 
@@ -147,6 +146,55 @@ dark-web-scraper/
 
 //can be updated 
 ```
+
+
+---
+
+## 🧩 Optional: Install as a CLI Tool (via `setup.py`)
+
+If you'd like to install the scraper as a terminal command using Python's `setup.py`, follow these steps:
+
+### Step 1: Install via pip (in editable/development mode)
+
+Make sure you're in the root project folder (where `setup.py` is located), then run:
+
+```bash
+pip install -e .
+```
+
+This will register the `dark-scraper` command in your system.
+
+### Step 2: Run from Anywhere
+
+Once installed, you can invoke the script from anywhere using:
+
+```bash
+dark-scraper
+```
+
+It will prompt for a `.onion` URL just like before, and download all `.mp4`, `.jpg`, and `.png` files into the `downloads/` folder.
+
+---
+
+## 📁 Project Structure
+
+```bash
+dark-web-scraper/
+├── downloads/           # Auto-created by script
+│   ├── images/
+│   └── videos/
+├── dark_scraper.py      # Main script
+├── setup.py             # Enables pip-based install
+├── README.md            # Documentation
+├── LICENSE              # MIT License
+├── requirements.txt     # Python dependencies
+└── .gitignore           # Prevents unwanted files from being tracked
+```
+
+---
+
+
+
 
 
 

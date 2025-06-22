@@ -130,4 +130,24 @@ Console output:
 
 ---
 
+###  **project structure**
+
+Suggested folder structure for cleanliness:
+
+```
+dark-web-scraper/
+├── downloads/           # Auto-created by script
+│   ├── images/
+│   └── videos/
+├── dark_scraper.py      # Main script
+├── README.md            # Docs
+├── LICENSE              # MIT License
+├── requirements.txt     # Python deps
+└── .gitignore           # Ignore unnecessary files
+
+//can be updated 
+```
+
+
+
 
